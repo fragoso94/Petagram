@@ -15,6 +15,7 @@
         android:id="@+id/btn_miBoton"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/tv_titulo"/>
+        android:layout_below="@+id/tv_titulo"
+        android:text="Click"/>
 
 </RelativeLayout>
