@@ -1,6 +1,7 @@
 package com.example.bacha.petagram;
 
 import android.support.design.widget.FloatingActionButton;
+import android.support.design.widget.Snackbar;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
@@ -20,7 +21,9 @@ public class MainActivity extends AppCompatActivity {
         miFab.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Toast.makeText(MainActivity.this, "Bienvenido", Toast.LENGTH_SHORT).show();
+                //Toast.makeText(getBaseContext(), getResources().getString(R.string.mensaje), Toast.LENGTH_SHORT).show();
+                //Toast.makeText(MainActivity.this, "mensaje", Toast.LENGTH_SHORT).show();
+                Snackbar.make(v,getResources().getString(R.string.mensaje),Snackbar.LENGTH_SHORT).show();
             }
         });
     }
