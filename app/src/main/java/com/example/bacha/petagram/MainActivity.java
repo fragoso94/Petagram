@@ -30,6 +30,7 @@ public class MainActivity extends AppCompatActivity {
                                 Toast.makeText(MainActivity.this, "Click en Snackbar", Toast.LENGTH_SHORT).show();
                             }
                         })
+                        .setActionTextColor(getResources().getColor(R.color.colorWhite))
                         .show();
             }
         });
