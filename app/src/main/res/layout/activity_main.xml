@@ -18,5 +18,12 @@
         android:layout_below="@+id/tv_titulo"
         android:text="Click"
         android:theme="@style/RisedButton"/>
+    <android.support.design.widget.FloatingActionButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_launcher_background"
+        android:layout_below="@id/btn_miBoton"
+        android:id="@+id/fb_icon"
+        />
 
 </RelativeLayout>
