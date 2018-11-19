@@ -23,7 +23,14 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View v) {
                 //Toast.makeText(getBaseContext(), getResources().getString(R.string.mensaje), Toast.LENGTH_SHORT).show();
                 //Toast.makeText(MainActivity.this, "mensaje", Toast.LENGTH_SHORT).show();
-                Snackbar.make(v,getResources().getString(R.string.mensaje),Snackbar.LENGTH_SHORT).show();
+                Snackbar.make(v,getResources().getString(R.string.mensaje),Snackbar.LENGTH_LONG)
+                        .setAction(getResources().getString(R.string.textoAccion), new View.OnClickListener() {
+                            @Override
+                            public void onClick(View v) {
+                                Toast.makeText(MainActivity.this, "Click en Snackbar", Toast.LENGTH_SHORT).show();
+                            }
+                        })
+                        .show();
             }
         });
     }
