@@ -2,4 +2,11 @@
     <string name="app_name">Petagram</string>
     <string name="mensaje">Bienvenido</string>
     <string name="textoAccion">Acción</string>
+    <string-array name="planetas">
+        <item>Mercurio</item>
+        <item>Venus</item>
+        <item>Tierra</item>
+        <item>Marte</item>
+        <item>Jupiter</item>
+    </string-array>
 </resources>

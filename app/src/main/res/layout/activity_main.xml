@@ -8,7 +8,7 @@
     <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent">
-        <android.support.v4.widget.SwipeRefreshLayout
+        <!--<android.support.v4.widget.SwipeRefreshLayout
             android:id="@+id/sfi_refresh"
             android:layout_width="match_parent"
             android:layout_height="wrap_content">
@@ -18,14 +18,13 @@
                 android:layout_height="wrap_content">
 
             </ListView>
-        </android.support.v4.widget.SwipeRefreshLayout>
+        </android.support.v4.widget.SwipeRefreshLayout>-->
 
         <TextView
             android:id="@+id/tv_titulo"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Hello World!"
-            android:layout_below="@+id/sfi_refresh"/>
+            android:text="Hello World!" />
         <Button
             android:id="@+id/btn_miBoton"
             android:layout_width="match_parent"
